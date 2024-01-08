@@ -884,17 +884,17 @@ section{
                 font-size: 35px;
 
                 span{
-                    font-size: 25px;
+                    font-size: 27px;
                 }
             }
 
             p{
-                font-size: 10px;
+                font-size: 15px;
             }
 
             a{
-                font-size: 11px;
-                padding: 10px 22px;
+                font-size: 19px;
+                padding: 19px 35px;
             }
         }
 
@@ -949,7 +949,6 @@ section{
         }
     }
     
-
     .main{
         margin-top: 0;
 
@@ -962,8 +961,21 @@ section{
             h3{
                 font-size: 8vw;
             }
+
+            p{
+                font-size: 2rem;
+            }
+
+            a{
+                padding: 19px 43px;
+                font-size: 20px;
+            }
+        }
+        .media-icons a{
+            font-size: 23px;
         }
     }
+    
 }
 
 
@@ -975,6 +987,20 @@ section{
 
     .about .content h3{
         font-size: 3.5rem;
+    }
+
+    .main{
+        .main-content{
+
+            p{
+                font-size: 1.5rem;
+            }
+
+            a{
+                padding: 10px 25px;
+                font-size: 10px; 
+            }
+        }
     }
 }
 
