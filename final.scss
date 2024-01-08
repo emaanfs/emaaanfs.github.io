@@ -1023,6 +1023,28 @@ section{
     }
 }
 
+@media screen and (max-width:471px) {
+    .main{
+        margin-top: 0;
+
+        .main-content{
+
+            span{
+                font-size: 8vw;
+            }
+
+            p{
+                font-size: 1.7rem;
+            }
+
+            a{
+                padding: 15px 25px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
 @keyframes fade {
     from {
         opacity: 0;
